@@ -83,9 +83,9 @@ const customInitFunctions = () => {
         }).trigger('blur');
 
         // ============================================================== 
-        // Auto select left navbar
+        // Auto select left navbar DESACTIVADO. Controlaré esto mediante las directivas de Angular en los menús
         // ============================================================== 
-        $(function() {
+        /* $(function() {
             var url = window.location;
             var element = $('ul#sidebarnav a').filter(function() {
                 return this.href == url;
@@ -98,7 +98,7 @@ const customInitFunctions = () => {
                 }
             }
 
-        });
+        }); */
         // ============================================================== 
         //tooltip
         // ============================================================== 
